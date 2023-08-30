@@ -24,7 +24,7 @@
     display: flex;
     height: 100px;
     width: 10%;
-    background-image: url(imagens/coter_logo2.png);
+    background-image: url(../imagens/coter_logo2.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -37,6 +37,7 @@
     width: 90%;
     align-items: center;
     justify-content: center;
+    padding-right: 10%;
     font-size: 35px;
     font-weight: bold;
     background-color: transparent;
@@ -57,6 +58,8 @@ nav{
 nav a{
     padding: 10px 30px;
     background-color: black;
+    color: white;
+    text-decoration: none;
 
 }
 
@@ -109,10 +112,13 @@ nav a{
 #botao{
     background-color: black;
     border-radius: 15px;
+    text-decoration: none;
 }
 
 #esqueci{
     font-size: 15px;
+    text-decoration: none;
+    color: white;
 }
 
 footer{

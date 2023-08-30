@@ -13,18 +13,6 @@ nav ul li a:hover{
     color: rgb(251, 255, 0);
 }
 
-.card-header, .bloco-oferecemos, footer{
-    color: #fff;
-}
-
-.oferecemos i{
-    color: chartreuse;
-}
-
-.texto-oferecemos{
-    color: red;
-    font-size: 45px;
-}
 
 .carousel-inner > .carousel-item > img {
     width: 50%;

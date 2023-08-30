@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cad_ADMIN</title>
-    <link rel="stylesheet" href="../style/cad_admin.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-</head>
+    <title>Afastamentos</title>
 
+    <link rel="stylesheet" href="../style/afastamentos.css">
+
+
+</head>
 <body>
+
+    
+
     <div id="pagina">
         <div id="banner">
             <div id="img1"></div>
-            <div id="img2">CADASTRO DE USUÁRIOS DO SISTEMA</div>
+            <div id="img2">AFASTAMENTOS</div>
         </div>
         <nav>
             <div><a href="../index.html">Inicio</a></div>
@@ -43,15 +46,35 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" placeholder="e-mail"><br>
 
-                
+                <div id="segmento">
+                    <legend>Segmento:</legend>
+
+                    <div>
+                        <label for="Fem">feminino</label>
+                        <input type="radio" name="sexo" id="Fem">
+                    </div>
+                    <div>
+                        <label for="Masc">masculino </label>
+                        <input type="radio" name="sexo" id="Masc">
+                    </div>
+                </div>
+
+                <div id="situação">
+                    <legend>Situação:</legend>
+
+                    <div>
+                        <label for="ativa">Ativa</label>
+                        <input type="radio" name="situacao" id="Ativa">
+                    </div>
+                    <div>
+                        <label for="PTTC">PTTC </label>
+                        <input type="radio" name="situacao" id="PTTC">
+                    </div>
+                </div>
                 <label for="senha">Senha</label>
                 <input type="password" id="senha1" required placeholder="senha"><br>
                 <label for="repitaSenha">Repita a senha</label>
                 <input type="password" id="senha2" required placeholder="senha">
-
-                <div id="login_texto">
-                    <h3>Seu LOGIN será o número de sua identidade.</h3>
-                </div>
 
 
             </fieldset>
@@ -68,6 +91,7 @@
 
     <script src="../js/code.jquery.com_jquery-3.7.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    
 </body>
-
 </html>
