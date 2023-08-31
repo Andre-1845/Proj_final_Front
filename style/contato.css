@@ -4,7 +4,7 @@
     background-color: rgb(37, 58, 4); 
     text-decoration: none !important;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #pagina{
@@ -77,7 +77,7 @@
         height: 100px;
         justify-content: center;
         text-decoration: none;
-        
+        font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
     
 #voltar{
@@ -91,7 +91,7 @@
         border-radius: 10px;
         border-color: white;
         text-decoration: none;
-        
+                
     }
 
 
