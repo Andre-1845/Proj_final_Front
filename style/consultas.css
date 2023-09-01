@@ -9,6 +9,7 @@
 
 #pagina{
     margin: 0px auto; 
+    
      
 }
 
@@ -61,7 +62,6 @@ nav a{
     background-color: black;
     color: white;
     text-decoration: none;
-
 }
 
 #cardsDiv{
@@ -69,6 +69,7 @@ nav a{
     justify-content: center;
     color: white;
 }
+
 
 #resetPos{
     display: flex;

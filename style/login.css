@@ -123,6 +123,10 @@ nav a{
     color: white;
 }
 
+#esqueci:hover{
+    color: red;
+}
+
 footer{
     background-color: black;
     height: 80px;
