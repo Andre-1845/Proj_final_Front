@@ -23,10 +23,11 @@ var teste = "ROLHA";
 card3.on('click', function(){
     
    var tituloModif = "consultas";
-   // window.alert(tituloModif);
+   window.alert(tituloModif);
+   return;
 });
 
-var tituloTeste = $("#pagTitulo").text(tituloModif);
+var tituloTeste = $("#pagTitulo").text("R");
 
 menu1.on('click', function(){
     plan1.slideDown(600);

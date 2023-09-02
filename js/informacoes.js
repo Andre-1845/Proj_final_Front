@@ -8,27 +8,29 @@ var plan2 = $("#planinhaInfo2");
 var plan3 = $("#planinhaInfo3");
 var plan4 = $("#planinhaInfo4");
 
+var tituloTeste = $("#pagTitulo").text(tituloModif);
+
 
 menu1.on('click', function(){
-    plan1.slideToggle(600);
+    plan1.slideDown(600);
     plan2.slideUp(200);
     plan3.slideUp(200);
     plan4.slideUp(200);  
 });
 menu2.on('click', function(){
-    plan2.slideToggle(600);
+    plan2.slideDown(600);
     plan1.slideUp(200);
     plan3.slideUp(200);
     plan4.slideUp(200);  
 });
 menu3.on('click', function(){
-    plan3.slideToggle(600);
+    plan3.slideDown(600);
     plan1.slideUp(200);
     plan2.slideUp(200);
     plan4.slideUp(200);  
 });
 menu4.on('click', function(){
-    plan4.slideToggle(600);
+    plan4.slideDown(600);
     plan1.slideUp(200);  
     plan2.slideUp(200);
     plan3.slideUp(200);
