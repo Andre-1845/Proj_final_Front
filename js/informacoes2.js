@@ -3,13 +3,10 @@ var menu2 = $("#menu2");
 var menu3 = $("#menu3");
 var menu4 = $("#menu4");
 
-var plan1 = $("#planinhaInfo1");
-var plan2 = $("#planinhaInfo2");
-var plan3 = $("#planinhaInfo3");
-var plan4 = $("#planinhaInfo4");
-
-var tituloTeste = $("#pagTitulo").text(tituloModif);
-
+var plan1 = $("#info1");
+var plan2 = $("#info2");
+var plan3 = $("#info3");
+var plan4 = $("#info4");
 
 menu1.on('click', function(){
     plan1.slideDown(600);

@@ -108,6 +108,7 @@ nav a{
        background-color: transparent;
        margin: 10px 0px 15px 0px;
 }
+
 #info2{
        background-image: url(../imagens/PTTC_Coter.jpg);
        width: 70%;
@@ -117,9 +118,11 @@ nav a{
        background-position: center;
        background-color: transparent;
        margin: 10px 0px 15px 0px;
-   }
+}
+
 #info3{
-       background-image: url(../imagens/ForcaTrabalho_Coter.jpg); width: 70%;
+       background-image: url(../imagens/ForcaTrabalho_Coter.jpg); 
+       width: 70%;
        height: 70vh;
        background-repeat: no-repeat;
        background-size: contain;
@@ -127,8 +130,10 @@ nav a{
        background-color: transparent;
        margin: 10px 0px 15px 0px;
 }
+
 #info4{
-    background-image: url(../imagens/binary-4791836_1280.jpg); width: 70%;
+    background-image: url(../imagens/binary-4791836_1280.jpg);
+    width: 70%;
     height: 70vh;
     background-repeat: no-repeat;
     background-size: contain;
@@ -215,4 +220,3 @@ nav a{
     background-color: black;
        
 }
-
