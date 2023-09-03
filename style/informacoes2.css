@@ -118,6 +118,7 @@ nav a{
        background-position: center;
        background-color: transparent;
        margin: 10px 0px 15px 0px;
+       display: none;
 }
 
 #info3{
@@ -129,10 +130,11 @@ nav a{
        background-position: center;
        background-color: transparent;
        margin: 10px 0px 15px 0px;
+       display: none;
 }
 
 #info4{
-    background-image: url(../imagens/binary-4791836_1280.jpg);
+    background-image: url(../imagens/CDOUT_MF.JPG);
     width: 70%;
     height: 70vh;
     background-repeat: no-repeat;
@@ -140,6 +142,7 @@ nav a{
     background-position: center;
     background-color: transparent;
     margin: 10px 0px 15px 0px;
+    display: none;
 }
 
 #selecionar-menu{

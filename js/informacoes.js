@@ -8,6 +8,9 @@ var plan2 = $("#info2");
 var plan3 = $("#info3");
 var plan4 = $("#info4");
 
+menu1.on('focus', function(){
+    menu1.style.color("black");
+});
 
 menu1.on('click', function(){
     plan1.slideDown(600);

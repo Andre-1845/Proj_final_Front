@@ -44,6 +44,25 @@
        
 }
 
+#divTabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    margin: 20px 5px;
+    border-collapse: collapse;   
+}
+
+td, th{
+    padding: 10px;
+    border: 1px solid white !important;
+    font-size: 15px;
+    font-weight: bold;
+        
+}
+
 
 #recuperacaoTit{
     display: flex;
